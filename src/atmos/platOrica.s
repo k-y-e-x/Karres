@@ -154,10 +154,11 @@ l02_adst:         sta   $f00d,x
               bne   l02_asrc
 
               clc
-              lda   #<3*7
+              ;lda   #<4
+              lda   _hires_xsize
               adc   l02_asrc+1
               sta   l02_asrc+1
-              lda   #>3*7
+              lda   #>4
               adc   l02_asrc+2
               sta   l02_asrc+2
 
