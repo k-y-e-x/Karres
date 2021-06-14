@@ -538,8 +538,8 @@ void test (void)
 			afficheSelection(1);
 		} while(!res);
 		score-=(mvt-lvl);
-		sprintf(s,"R_solu en %d coups sur %d",mvt,lvl);
-		  plat_DrawString(SCREEN_WIDTH/2-strlen(s)/2,180,ROP_CPY,s);
+		sprintf(s,"R_solu en %d coups sur %d  ",mvt,lvl);
+		  plat_DrawString(SCREEN_WIDTH/2-strlen(s)/2-1,180,ROP_CPY,s);
 		  
 		  sprintf(s,"score %d",score);
 		  plat_DrawString(SCREEN_WIDTH-strlen(s),6,ROP_CPY,s);
