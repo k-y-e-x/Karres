@@ -7,4 +7,4 @@ Donc encore pas mal de choses à faire :
 - gestion des niveaux et mélange aléatoire à vérifier
 - calcul du score
 - écran titre
-- aumentagtion du nombre de carrées de couleurs (blocs de 3x3, passage à 3x3 blocs !> 9 couleurs = trames, AIC?)
+- aumentagtion du nombre de carrées de couleurs (blocs de 3x3, passage à 3x3 blocs => 9 couleurs = trames, AIC?)
